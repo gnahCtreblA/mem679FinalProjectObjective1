@@ -1,0 +1,17 @@
+# Path to my dataset
+path: ../recaptcha v2
+train: train/images
+val: valid/images
+test: test/images
+
+# how many classes and what they are
+nc: 11
+names: ['Bicycle', 'Bridge', 'Bus', 'Car', 'Chimney', 'Cross', 'Hydrant', 'Motorcycle', 'Palm', 'Stair', 'Tlight']
+
+# used roboflow to annotate my images
+roboflow:
+  workspace: my-workspace-4p8ud
+  project: recaptcha-v2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-workspace-4p8ud/recaptcha-v2/dataset/1

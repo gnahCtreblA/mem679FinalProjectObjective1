@@ -1,0 +1,29 @@
+Hello!
+This project folder contains all of the code for the first part of my objective.
+
+The CUDAsetup.py file is the file I used for troubleshooting my CUDA installation.
+The recaptcha v2 directory contains my dataset i used to train the model.
+The yolov5 dataset contains the model I used.
+The requirements file can be found inside of the yolov5 directory, as well as more detailed information regarding the model.
+I downloaded the model from the Ultralytics github page.
+
+These are the following lines of code I pasted into the terminal to train the model:
+You have to run it from the yolov5 directory
+so first:
+
+cd yolov5
+
+then:
+
+python train.py --img 640 --epochs 100 --data data.yaml --weights yolov5s.pt
+
+There is a data.yaml file in the data directory located inside of the yolov5 directory which points to my dataset.
+It can be found here \mem679FinalProject\yolov5\data\
+
+I used Roboflow to annotate my dataset.
+
+After training is completed, the results are stored in the runs directory located inside the yolov5 directory.
+It can be found here \mem679FinalProject\yolov5\runs\train\
+
+My results from the runs I did will not be on github as it is excluded from the push.
+The runs folder will be created when you train for the first time.
