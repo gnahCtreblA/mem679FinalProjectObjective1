@@ -2,6 +2,7 @@ Hello!
 This project folder contains all of the code for the first part of my objective.
 
 The CUDAsetup.py file is the file I used for troubleshooting my CUDA installation.
+When installing the requirements, make sure the version of torch installed is the cuda version.
 The recaptcha v2 directory contains my dataset i used to train the model.
 The yolov5 dataset contains the model I used.
 The requirements file can be found inside of the yolov5 directory, as well as more detailed information regarding the model.
